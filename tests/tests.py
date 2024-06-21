@@ -10,6 +10,10 @@ def test_add():
     calc = Calculadora()
     assert calc.somar(1, 2) == 3
 
+def test_add_error():
+    calc = Calculadora()
+    assert calc.somar(1, 1) == 3
+
 def test_subtract():
     calc = Calculadora()
     assert calc.subtrair(2, 1) == 1
