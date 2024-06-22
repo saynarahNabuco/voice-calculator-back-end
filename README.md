@@ -53,11 +53,11 @@ Executes automated tests defined in the project, such as unit tests, integration
 
 Performs any cleanup or additional configuration tasks related to the Python environment setup, ensuring the environment is properly configured before proceeding with subsequent steps.
 
-7. Post Checkout repository:
+7. *Post Checkout repository*:
 
 Performs cleanup or additional configuration tasks related to checking out the repository, ensuring any temporary files or configurations are appropriately handled before moving forward.
 
-8. Complete job:
+8. *Complete job*:
 
 Finalizes the job execution, providing any necessary summary or status updates. This stage marks the completion of the defined workflow for the job, indicating success or failure based on the preceding steps.
 
